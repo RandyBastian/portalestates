@@ -125,16 +125,14 @@ require "header.php";
 								<div class="post feature-post">
 									<div class="entry-header">
 										<div class="entry-thumbnail">
-											<img class="img-responsive" src="images/post/slider/2.jpg" alt="" />
+											<img class="img-responsive" src="images/post/slider/2.jpg" alt="Decoration" title="Decoration" />
 										</div>
-										<div class="catagory health"><span><a href="#">Health</a></span></div>
+										<div class="catagory health"><span><a href="#">Decoration</a></span></div>
 									</div>
 									<div class="post-content">								
 										<div class="entry-meta">
 											<ul class="list-inline">
 												<li class="publish-date"><i class="fa fa-clock-o"></i><a href="#"> Nov 7, 2015 </a></li>
-												<li class="views"><i class="fa fa-eye"></i><a href="#">15k</a></li>
-												<li class="loves"><i class="fa fa-heart-o"></i><a href="#">278</a></li>
 											</ul>
 										</div>
 										<h2 class="entry-title">
@@ -149,16 +147,14 @@ require "header.php";
 								<div class="post feature-post">
 									<div class="entry-header">
 										<div class="entry-thumbnail">
-											<img class="img-responsive" src="images/post/slider/3.jpg" alt="" />
+											<img class="img-responsive" src="images/post/slider/3.jpg" alt="Design" title="Design" />
 										</div>
-										<div class="catagory technology"><span><a href="#">Technology</a></span></div>
+										<div class="catagory technology"><span><a href="#">Design</a></span></div>
 									</div>
 									<div class="post-content">								
 										<div class="entry-meta">
 											<ul class="list-inline">
 												<li class="publish-date"><i class="fa fa-clock-o"></i><a href="#"> Nov 2, 2015 </a></li>
-												<li class="views"><i class="fa fa-eye"></i><a href="#">15k</a></li>
-												<li class="loves"><i class="fa fa-heart-o"></i><a href="#">278</a></li>
 											</ul>
 										</div>
 										<h2 class="entry-title">
@@ -171,16 +167,14 @@ require "header.php";
 								<div class="post feature-post">
 									<div class="entry-header">
 										<div class="entry-thumbnail">
-											<img class="img-responsive" src="images/post/slider/5.jpg" alt="" />
+											<img class="img-responsive" src="images/post/slider/5.jpg" alt="Home" title="Home" />
 										</div>
-										<div class="catagory entertainment"><a href="#">Entertainment</a></div>
+										<div class="catagory entertainment"><a href="#">Home</a></div>
 									</div>
 									<div class="post-content">								
 										<div class="entry-meta">
 											<ul class="list-inline">
 												<li class="publish-date"><i class="fa fa-clock-o"></i><a href="#"> Nov 3, 2015 </a></li>
-												<li class="views"><i class="fa fa-eye"></i><a href="#">15k</a></li>
-												<li class="loves"><i class="fa fa-heart-o"></i><a href="#">278</a></li>
 											</ul>
 										</div>
 										<h2 class="entry-title">
@@ -193,16 +187,14 @@ require "header.php";
 								<div class="post feature-post">
 									<div class="entry-header">
 										<div class="entry-thumbnail">
-											<img class="img-responsive" src="images/post/slider/6.jpg" alt="" />
+											<img class="img-responsive" src="images/post/slider/6.jpg" alt="Development" title="development" />
 										</div>
-										<div class="catagory politics"><span><a href="#">Politics</a></span></div>
+										<div class="catagory politics"><span><a href="#">Development</a></span></div>
 									</div>
 									<div class="post-content">								
 										<div class="entry-meta">
 											<ul class="list-inline">
 												<li class="publish-date"><i class="fa fa-clock-o"></i><a href="#"> Nov 5, 2015 </a></li>
-												<li class="views"><i class="fa fa-eye"></i><a href="#">15k</a></li>
-												<li class="loves"><i class="fa fa-heart-o"></i><a href="#">278</a></li>
 											</ul>
 										</div>
 										<h2 class="entry-title">
@@ -216,14 +208,14 @@ require "header.php";
 					
 					<div class="col-md-3 visible-md visible-lg">
 						<div class="add featured-add">
-							<a href="#"><img class="img-responsive" src="images/post/add/add1.jpg" alt="" /></a>
+							<img class="img-responsive" src="images/post/add/add1.jpg" alt="" />
 						</div>
 					</div><!--/#add--> 
 				</div>
 			</div><!--/.section--> 
-			
+
 			<div class="section add inner-add">
-				<a href="#"><img class="img-responsive" src="images/post/add/add2.jpg" alt="" /></a>
+				<img class="img-responsive" src="images/post/add/add2.jpg" alt="" />
 			</div><!--/.section-->
 			
 			<div class="section">				
@@ -235,14 +227,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/1.jpg" alt="" />
 								</div>
-								<div class="catagory politics"><span><a href="#">Politics</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -255,14 +244,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/2.jpg" alt="" />
 								</div>
-								<div class="catagory world"><a href="#">World</a></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -275,14 +261,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/4.jpg" alt="" />
 								</div>
-								<div class="catagory health"><span><a href="#">Health</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -296,14 +279,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/3.jpg" alt="" />
 								</div>
-								<div class="catagory sports"><span><a href="#">Sports</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -317,14 +297,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/5.jpg" alt="" />
 								</div>
-								<div class="catagory politics"><span><a href="#">Politics</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -338,14 +315,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/6.jpg" alt="" />
 								</div>
-								<div class="catagory entertainment"><span><a href="#">Entertainment</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -358,14 +332,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/9.jpg" alt="" />
 								</div>
-								<div class="catagory sports"><span><a href="#">Sports</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -379,14 +350,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/8.jpg" alt="" />
 								</div>
-								<div class="catagory politics"><span><a href="#">Politics</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -400,14 +368,11 @@ require "header.php";
 								<div class="entry-thumbnail">
 									<img class="img-responsive" src="images/post/10.jpg" alt="" />
 								</div>
-								<div class="catagory entertainment"><span><a href="#">Entertainment</a></span></div>
 							</div>
 							<div class="post-content">								
 								<div class="entry-meta">
 									<ul class="list-inline">
 										<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 5, 2015 </a></li>
-										<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-										<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 									</ul>
 								</div>
 								<h2 class="entry-title">
@@ -427,15 +392,10 @@ require "header.php";
 								<div class="col-md-8 col-sm-6">
 									<div class="left-content">
 										<div class="section world-news">
-											<h1 class="section-title title">Worlds</h1>	
+											<h1 class="section-title title">Apartment</h1>	
 											<div class="world-nav cat-menu">         
 												<ul class="list-inline">                       
-													<li class="active"><a href="listing.html">Us</a></li>
-													<li><a href="listing.html">Crime</a></li>
-													<li><a href="listing.html">Local</a></li>
-													<li><a href="listing.html">Offbet</a></li>
-													<li><a href="listing.html">Openion</a></li>
-													<li><a href="listing.html">See All</a></li>
+													<li><a href="listing.php">See All</a></li>
 												</ul> 					
 											</div>
 											<div class="post">
@@ -448,9 +408,6 @@ require "header.php";
 													<div class="entry-meta">
 														<ul class="list-inline">
 															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-															<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-															<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
-															<li class="comments"><i class="fa fa-comment-o"></i><a href="#">189</a></li>
 														</ul>
 													</div>
 													<h2 class="entry-title">
@@ -469,11 +426,14 @@ require "header.php";
 												</div><!--/list-post--> 
 											</div><!--/post--> 
 										</div><!--/.section-->
+										<div class="section add inner-add">
+											<a href="#"><img class="img-responsive" src="images/post/add/add4.jpg" alt="" /></a>
+										</div><!--/.section add-->
 										
 										<div class="section technology-news">
-											<h1 class="section-title">Technology</h1>
-											<div class="cat-menu">         
-												<a href="listing.html">See all</a>					
+											<h1 class="section-title">Decoration</h1>
+											<div class="cat-menu">
+												<a href="listing.php">See all</a>					
 											</div>
 											<div class="row">
 												<div class="col-md-8 col-sm-12">
@@ -487,9 +447,6 @@ require "header.php";
 															<div class="entry-meta">
 																<ul class="list-inline">
 																	<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-																	<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-																	<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
-																	<li class="comments"><i class="fa fa-comment-o"></i><a href="#">189</a></li>
 																</ul>
 															</div>
 															<h2 class="entry-title">
@@ -540,96 +497,10 @@ require "header.php";
 											</div>
 										</div><!--/technology-news--> 
 										
-										<div class="section add inner-add">
-											<a href="#"><img class="img-responsive" src="images/post/add/add4.jpg" alt="" /></a>
-										</div><!--/.section add-->
-										
-										<div class="section photo-gallery">
-											<h1 class="section-title title">Photo Gallery</h1>	
-											<div class="cat-menu">         
-												<a href="listing.html">See all</a>					
-											</div>
-											<div id="photo-gallery" class="carousel slide carousel-fade post" data-ride="carousel">						
-												<div class="carousel-inner">
-													<div class="item active">
-														<a href="#"><img class="img-responsive" src="images/gallery/1.jpg" alt="" /></a>
-														<h2><a href="#">No one can agree on how a dog is supposed to wear human pants</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/2.jpg" alt="" /></a>
-														<h2><a href="#">500-pound elephant seal causes traffic jam while repeatedly</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/3.jpg" alt="" /></a>
-														<h2><a href="#">I rode a Metroboard electric skateboard 30 miles around Manhattan</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/4.jpg" alt="" /></a>
-														<h2><a href="#">The super creepy side of the Internet of Things and smart homes</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/5.jpg" alt="" /></a>
-														<h2><a href="#">Mirum est notare quam littera gothica, quam nunc putamus parum claram</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/6.jpg" alt="" /></a>
-														<h2><a href="#">Someone has calculated the total cost of saving Matt Damon</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/7.jpg" alt="" /></a>
-														<h2><a href="#">Wet wedding: Yorkshire couple dons wellies to tie the knot in flooded town</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/8.jpg" alt="" /></a>
-														<h2><a href="#">This dog is so stoked for his Christmas present he can hardly stand it</a></h2>
-													</div>
-													<div class="item">
-														<a href="#"><img class="img-responsive" src="images/gallery/9.jpg" alt="" /></a>
-														<h2><a href="#">The world's richest people lost $19 billion in 2015, but Jeff Bezos</a></h2>
-													</div>
-												</div><!--/carousel-inner-->
-												
-												<ol class="gallery-indicators carousel-indicators">
-													<li data-target="#photo-gallery" data-slide-to="0" class="active">
-														<img class="img-responsive" src="images/gallery/thumb1.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="1">
-														<img class="img-responsive" src="images/gallery/thumb2.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="2">
-														<img class="img-responsive" src="images/gallery/thumb3.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="3">
-														<img class="img-responsive" src="images/gallery/thumb4.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="4">
-														<img class="img-responsive" src="images/gallery/thumb5.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="5">
-														<img class="img-responsive" src="images/gallery/thumb6.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="6">
-														<img class="img-responsive" src="images/gallery/thumb7.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="7">
-														<img class="img-responsive" src="images/gallery/thumb8.png" alt="" />
-													</li>
-													<li data-target="#photo-gallery" data-slide-to="8">
-														<img class="img-responsive" src="images/gallery/thumb9.png" alt="" />
-													</li>
-												</ol><!--/gallery-indicators-->
-												
-												<div class="gallery-turner">
-													<a class="left-photo" href="#photo-gallery" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-													<a class="right-photo" href="#photo-gallery" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-												</div>
-											</div>
-										</div><!--/photo-gallery--> 
-										
 										<div class="section lifestyle-section">
-											<h1 class="section-title">Life Style</h1>
-											<div class="cat-menu">         
-												<a href="listing-life-style.html">See all</a>					
+											<h1 class="section-title">Design</h1>
+											<div class="cat-menu">
+												<a href="listing.php">See all</a>					
 											</div>
 											<div class="row">
 												<div class="col-md-6">
@@ -643,8 +514,6 @@ require "header.php";
 															<div class="entry-meta">
 																<ul class="list-inline">
 																	<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-																	<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-																	<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 																</ul>
 															</div>
 															<h2 class="entry-title">
@@ -662,8 +531,6 @@ require "header.php";
 															<div class="entry-meta">
 																<ul class="list-inline">
 																	<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-																	<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-																	<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 																</ul>
 															</div>
 															<h2 class="entry-title">
@@ -683,8 +550,6 @@ require "header.php";
 															<div class="entry-meta">
 																<ul class="list-inline">
 																	<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-																	<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-																	<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 																</ul>
 															</div>
 															<h2 class="entry-title">
@@ -702,8 +567,6 @@ require "header.php";
 															<div class="entry-meta">
 																<ul class="list-inline">
 																	<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-																	<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-																	<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 																</ul>
 															</div>
 															<h2 class="entry-title">
@@ -716,9 +579,9 @@ require "header.php";
 										</div><!--/.lifestyle -->
 										
 										<div class="section health-section">
-											<h1 class="section-title">Health</h1>
+											<h1 class="section-title">Development</h1>
 											<div class="cat-menu">         
-												<a href="listing-life-style.html">See all</a>					
+												<a href="listing.php">See all</a>					
 											</div>
 											<div class="health-feature">
 												<div class="post">
@@ -731,8 +594,6 @@ require "header.php";
 														<div class="entry-meta">
 															<ul class="list-inline">
 																<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-																<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-																<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 															</ul>
 														</div>
 														<h2 class="entry-title">
@@ -819,81 +680,20 @@ require "header.php";
 										
 									</div><!--/.left-content-->
 								</div>
+
 								<div class="col-md-4 col-sm-6">
 									<div class="middle-content">
+										
+										<div class="section">
+											<div class="add inner-add">
+												<a href="#"><img class="img-responsive" src="images/post/add/add5.jpg" alt="" /></a>
+											</div>
+										</div>
 										<div class="section sports-section">
-											<h1 class="section-title title">Sports</h1>
+											<h1 class="section-title title">Home</h1>
 											<div class="cat-menu">         
 												<a href="listing-sports.html">See all</a>					
 											</div>										
-											<div class="football-result post">
-												<div class="featured-result">
-													<h2 class="league-name">Premier League</h2>
-													<div class="row">
-														<div class="col-xs-4">
-															<img class="img-responsive" src="images/gallery/league1.png" alt="" />
-															<span class="match-result">3</span>
-														</div>
-														<div class="col-xs-4">
-															<span class="verses">VS</span>
-															<span class="match-time">90:00</span>
-														</div>
-														<div class="col-xs-4">
-															<img class="img-responsive" src="images/gallery/league2.png" alt="" />
-															<span class="match-result">0</span>
-														</div>
-													</div>
-												</div>
-												<div class="league-result">
-													<ul>
-														<li>
-															<div class="row">
-																<div class="col-xs-4">
-																	<img class="img-responsive"  src="images/gallery/team1.png" alt="" />
-																	<span class="team-name">Bra</span>
-																</div>
-																<div class="col-xs-4">
-																	<span class="match-result">3-2</span>
-																</div>
-																<div class="col-xs-4">
-																	<span class="team-name">Arg</span>
-																	<img class="img-responsive" src="images/gallery/team2.png" alt="" />
-																</div>
-															</div>
-														</li>
-														<li>
-															<div class="row">
-																<div class="col-xs-4">
-																	<img class="img-responsive" src="images/gallery/team2.png" alt="" />
-																	<span class="team-name">Arg</span>
-																</div>
-																<div class="col-xs-4">
-																	<span class="match-result">5-4</span>
-																</div>
-																<div class="col-xs-4">
-																	<span class="team-name">Bra</span>
-																	<img class="img-responsive" src="images/gallery/team1.png" alt="" />
-																</div>
-															</div>
-														</li>
-														<li>
-															<div class="row">
-																<div class="col-xs-4">
-																	<img class="img-responsive" src="images/gallery/team1.png" alt="" />
-																	<span class="team-name">Bra</span>
-																</div>
-																<div class="col-xs-4">
-																	<span class="match-result">1-2</span>
-																</div>
-																<div class="col-xs-4">
-																	<span class="team-name">Arg</span>
-																	<img class="img-responsive" src="images/gallery/team2.png" alt="" />
-																</div>
-															</div>
-														</li>
-													</ul>
-												</div>
-											</div>
 											<div class="post medium-post">
 												<div class="entry-header">
 													<div class="entry-thumbnail">
@@ -904,8 +704,6 @@ require "header.php";
 													<div class="entry-meta">
 														<ul class="list-inline">
 															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-															<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-															<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 														</ul>
 													</div>
 													<h2 class="entry-title">
@@ -924,8 +722,6 @@ require "header.php";
 													<div class="entry-meta">
 														<ul class="list-inline">
 															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-															<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-															<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 														</ul>
 													</div>
 													<h2 class="entry-title">
@@ -944,8 +740,6 @@ require "header.php";
 													<div class="entry-meta">
 														<ul class="list-inline">
 															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-															<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-															<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 														</ul>
 													</div>
 													<h2 class="entry-title">
@@ -956,86 +750,10 @@ require "header.php";
 											
 										</div><!--/.sports-section -->
 										
-										<div class="section">
-											<div class="add inner-add">
-												<a href="#"><img class="img-responsive" src="images/post/add/add5.jpg" alt="" /></a>
-											</div>
-										</div>
-										
-										<div class="section video-section">
-											<h1 class="section-title title">Watch Video</h1>
-											<div class="cat-menu">         
-												<a href="listing.html">See all</a>					
-											</div>
-											<div class="post video-post medium-post">
-												<div class="entry-header">
-													<div class="entry-thumbnail embed-responsive embed-responsive-16by9">
-														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-WlqrkXImsk" allowfullscreen></iframe>
-													</div>
-												</div>
-												<div class="post-content">								
-													<div class="video-catagory"><a href="#">World</a></div>
-													<h2 class="entry-title">
-														<a href="news-details.php">Our closest relatives aren't fans of daylight saving time</a>
-													</h2>
-												</div>
-											</div><!--/post-->
-											
-											<div class="video-post-list">
-												<ul>
-													<li>
-														<div class="post video-post small-post">
-															<div class="entry-header">
-																<div class="entry-thumbnail embed-responsive embed-responsive-16by9">
-																	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-WlqrkXImsk" allowfullscreen></iframe>
-																</div>
-															</div>
-															<div class="post-content">								
-																<div class="video-catagory"><a href="#">World</a></div>
-																<h2 class="entry-title">
-																	<a href="news-details.php">Our closest relatives aren't fans of daylight saving time</a>
-																</h2>
-															</div>
-														</div><!--/post-->
-													</li>
-													<li>
-														<div class="post video-post small-post">
-															<div class="entry-header">
-																<div class="entry-thumbnail embed-responsive embed-responsive-16by9">
-																	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-WlqrkXImsk" allowfullscreen></iframe>
-																</div>
-															</div>
-															<div class="post-content">								
-																<div class="video-catagory"><a href="#">Business</a></div>
-																<h2 class="entry-title">
-																	<a href="news-details.php">3 students arrested after body-slamming principal</a>
-																</h2>
-															</div>
-														</div><!--/post-->
-													</li>
-													<li>
-														<div class="post video-post small-post">
-															<div class="entry-header">
-																<div class="entry-thumbnail embed-responsive embed-responsive-16by9">
-																	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-WlqrkXImsk" allowfullscreen></iframe>
-																</div>
-															</div>
-															<div class="post-content">								
-																<div class="video-catagory"><a href="#">World</a></div>
-																<h2 class="entry-title">
-																	<a href="news-details.php">Our closest relatives aren't fans of daylight saving time</a>
-																</h2>
-															</div>
-														</div><!--/post-->
-													</li>
-												</ul>
-											</div>											
-										</div> <!-- /.video-section -->
-										
 										<div class="section business-section">
-											<h1 class="section-title">Business</h1>
+											<h1 class="section-title">Land</h1>
 											<div class="cat-menu">         
-												<a href="listing.html">See all</a>					
+												<a href="listing.php">See all</a>					
 											</div>
 											<div class="post medium-post">
 												<div class="entry-header">
@@ -1047,8 +765,6 @@ require "header.php";
 													<div class="entry-meta">
 														<ul class="list-inline">
 															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
-															<li class="views"><a href="#"><i class="fa fa-eye"></i>15k</a></li>
-															<li class="loves"><a href="#"><i class="fa fa-heart-o"></i>278</a></li>
 														</ul>
 													</div>
 													<h2 class="entry-title">
@@ -1056,42 +772,57 @@ require "header.php";
 													</h2>
 												</div>
 											</div><!--/post--> 
-											
-											<div class="stock-exchange text-center">
-												<div class="stock-exchange-zone">
-													<a href="#"><img class="img-responsive" src="images/gallery/stock.png" alt="" /></a>
-												</div>
-												<div class="stock-header">
-													<div class="row">
-														<div class="col-xs-4">Name</div>
-														<div class="col-xs-4">Price</div>
-														<div class="col-xs-4">%+/-</div>
+											<div class="post medium-post">
+												<div class="entry-header">
+													<div class="entry-thumbnail">
+														<img class="img-responsive" src="images/post/business/4.jpg" alt="" />
 													</div>
 												</div>
-												<div class="stock-reports">
-													<div class="com-details">
-														<div class="row">
-															<div class="col-xs-4 com-name">BP</div>
-															<div class="col-xs-4 current-price">388.65</div>
-															<div class="col-xs-4 current-result">+0.58 <i class="fa fa-caret-up"></i></div>
-														</div>
-													</div>													
-													<div class="com-details">
-														<div class="row">
-															<div class="col-xs-4 com-name">Royal Ba...</div>
-															<div class="col-xs-4 current-price">318.25</div>
-															<div class="col-xs-4 current-result">+0.32 <i class="fa fa-caret-up"></i></div>
-														</div>
+												<div class="post-content">								
+													<div class="entry-meta">
+														<ul class="list-inline">
+															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
+														</ul>
 													</div>
-													<div class="com-details">
-														<div class="row">
-															<div class="col-xs-4 com-name">Inmarsat</div>
-															<div class="col-xs-4 current-price">214.19</div>
-															<div class="col-xs-4 current-result">-0.43 <i class="fa fa-caret-down"></i></div>
-														</div>
+													<h2 class="entry-title">
+														<a href="news-details.php">We are seeing the effects of the minimum wage san francisco</a>
+													</h2>
+												</div>
+											</div><!--/post--> 
+											<div class="post medium-post">
+												<div class="entry-header">
+													<div class="entry-thumbnail">
+														<img class="img-responsive" src="images/post/business/4.jpg" alt="" />
 													</div>
-												</div>												
-											</div>
+												</div>
+												<div class="post-content">								
+													<div class="entry-meta">
+														<ul class="list-inline">
+															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
+														</ul>
+													</div>
+													<h2 class="entry-title">
+														<a href="news-details.php">We are seeing the effects of the minimum wage san francisco</a>
+													</h2>
+												</div>
+											</div><!--/post--> 
+											<div class="post medium-post">
+												<div class="entry-header">
+													<div class="entry-thumbnail">
+														<img class="img-responsive" src="images/post/business/4.jpg" alt="" />
+													</div>
+												</div>
+												<div class="post-content">								
+													<div class="entry-meta">
+														<ul class="list-inline">
+															<li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Nov 15, 2015 </a></li>
+														</ul>
+													</div>
+													<h2 class="entry-title">
+														<a href="news-details.php">We are seeing the effects of the minimum wage san francisco</a>
+													</h2>
+												</div>
+											</div><!--/post--> 
 										</div><!-- /.business-section -->
 										
 									</div><!--/.middle-content-->
@@ -1100,24 +831,7 @@ require "header.php";
 						</div><!--/#site-content-->
 					</div>
 					<div class="col-md-3 col-sm-4">
-						<div id="sitebar">
-							<div class="widget follow-us">
-								<h1 class="section-title title">Follow Us</h1>
-								<ul class="list-inline social-icons">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-								</ul>
-							</div><!--/#widget-->
-							
-							<div class="widget">
-								<div class="add">
-									<a href="#"><img class="img-responsive" src="images/post/add/add3.jpg" alt="" /></a>
-								</div>
-							</div><!--/#widget-->
-							
+						<div id="sitebar">							
 							<div class="widget">
 								<h1 class="section-title title">This is Rising!</h1>
 								<ul class="post-list">
@@ -1128,8 +842,7 @@ require "header.php";
 													<img class="img-responsive" src="images/post/rising/1.jpg" alt="" />
 												</div>
 											</div>
-											<div class="post-content">								
-												<div class="video-catagory"><a href="#">World</a></div>
+											<div class="post-content">
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1144,7 +857,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Business</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1159,7 +871,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Sports</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1174,7 +885,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Technology</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1189,7 +899,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Politics</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1204,7 +913,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Health</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1219,7 +927,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Lifestyle</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1234,7 +941,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Entertainment</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1249,7 +955,6 @@ require "header.php";
 												</div>
 											</div>
 											<div class="post-content">								
-												<div class="video-catagory"><a href="#">Business</a></div>
 												<h2 class="entry-title">
 													<a href="news-details.php">3 students arrested after body-slamming principal</a>
 												</h2>
@@ -1267,200 +972,6 @@ require "header.php";
 							
 							<div class="widget weather-widget">
 								<div id="weather-widget"></div>
-							</div><!--/#widget-->
-							
-							<div class="widget meta-widget">
-								<h1 class="section-title title">Widget</h1>
-								<div class="meta-tab">
-									<ul class="nav nav-tabs nav-justified" role="tablist">
-										<li role="presentation"><a href="#author" data-toggle="tab"><i class="fa fa-user"></i>Authors</a></li>
-										<li role="presentation" class="active"><a href="#comment" data-toggle="tab"><i class="fa fa-comment-o"></i>Comments</a></li>
-										<li role="presentation"><a href="#tag" data-toggle="tab"><i class="fa fa-inbox"></i>Tag</a></li>
-									</ul>
-									<div class="tab-content">
-										<div role="tabpanel" class="tab-pane" id="author">
-											<ul class="authors-post">
-												
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Jhon Due,</a></li>
-																	<li class="publish-date"><a href="#">Dec 11, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Matt Cloey</a></li>
-																	<li class="publish-date"><a href="#">Dec 15, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">KOlony Wispe</a></li>
-																	<li class="publish-date"><a href="#">Nov 25, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												
-												<li>
-													<div class="post small-post">
-														<div class="post-content">
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Matt Cloey</a>,</li>
-																	<li class="publish-date"><a href="#">Nov 5, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Mike Tinson</a>,</li>
-																	<li class="publish-date"><a href="#">Nov 18, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												
-											</ul>
-										</div>
-										<div role="tabpanel" class="tab-pane active" id="comment">
-											<ul class="comment-list">
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Matt Cloey ,</a></li>
-																	<li class="publish-date"><a href="#">Dec 15, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Jhon Due ,</a></li>
-																	<li class="publish-date"><a href="#">Dec 11, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">KOlony Wispe ,</a></li>
-																	<li class="publish-date"><a href="#">Nov 25, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">	
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">KOlony Wispe</a></li>
-																	<li class="publish-date"><a href="#">Nov 25, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-												<li>
-													<div class="post small-post">
-														<div class="post-content">
-															<div class="entry-meta">
-																<ul class="list-inline">
-																	<li class="post-author"><a href="#">Mike Tinson ,</a></li>
-																	<li class="publish-date"><a href="#">Nov 18, 2015 </a></li>
-																</ul>
-															</div>
-															<h2 class="entry-title">
-																<a href="news-details.php">3 students arrested after body-slamming principal</a>
-															</h2>
-														</div>
-													</div><!--/post-->
-												</li>
-											</ul>
-										</div>
-										<div role="tabpanel" class="tab-pane" id="tag">
-											<ul class="list-inline tag-cloud">
-												<li><a href="#">Business</a>,</li>
-												<li><a href="#">Creative</a>,</li>
-												<li><a href="#">Marketing</a>,</li>
-												<li><a href="#">Bloging</a>,</li>
-												<li><a href="#">Science</a>,</li>
-												<li><a href="#">Multipurpose</a>,</li>
-												<li><a href="#">Graphics</a>,</li>
-												<li><a href="#">Art</a>,</li>
-												<li><a href="#">Politics</a>,</li>
-												<li><a href="#">News</a>,</li>
-												<li><a href="#">Sports</a>,</li>
-												<li><a href="#">World</a>,</li>
-												<li><a href="#">Lifestyle</a>,</li>
-												<li><a href="#">Health</a>,</li>
-												<li><a href="#">Environment</a>,</li>
-												<li><a href="#">Entertainment</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
 							</div><!--/#widget-->
 							
 						</div><!--/#sitebar-->

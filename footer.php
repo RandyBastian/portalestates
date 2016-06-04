@@ -7,12 +7,10 @@
 		<div class="footer-menu">
 			<div class="container">
 				<ul class="nav navbar-nav">                       
-					<li><a href="#">Apartment</a></li>
-					<li><a href="#">Decoration</a></li>
-					<li><a href="#">Design</a></li>
-					<li><a href="#">Development</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Land</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Disclaimer</a></li>
+					<li><a href="#">FAQ</a></li>
 				</ul> 
 			</div>
 		</div>
