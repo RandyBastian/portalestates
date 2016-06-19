@@ -30,13 +30,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 col-md-6">
-							<div id="date"></div>
+							
 						</div>
 						<div class="col-lg-6 col-md-6">
 							<ul class="small-nav">
-								<li><a href="login.html">LOGIN</a></li>
-								<li><a href="site-map.html">SITE MAP</a></li>
-								<li><a href="contact-us.html">CONTACT</a></li>
+								<li><a href="<?php echo site_url('login');?>">LOGIN</a></li>
+								<li><a href="<?php echo site_url('sitemap');?>">SITE MAP</a></li>
+								<li><a href="<?php echo site_url('contact'); ?>">CONTACT</a></li>
 							</ul>
 						</div>
 					</div>
@@ -46,7 +46,7 @@
 			<!-- LOGO & ADS STARTS -->
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-2 logo"><a href="index.html"><img src="<?php echo site_url();?>assets/frontend/images/logo.png" alt=""></a></div>
+					<div class="col-lg-4 col-md-2 logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo site_url();?>assets/frontend/images/logo.png" alt=""></a></div>
 					<div class="col-lg-8 col-md-10">
 						<div class="ad-728x90 visible-lg visible-md"><img src="<?php echo site_url();?>assets/frontend/images/images/ads/728x90/3d_728x90_v2.gif" alt=""></div>
 						<div class="ad-468x60 visible-sm"><img src="<?php echo site_url();?>assets/frontend/images/images/ads/468x60/3d_468x60_v4.gif" alt=""></div>
@@ -72,153 +72,14 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="navbar-header">								
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" > <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>						
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" > <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>				
 							</div>
 							<div class="collapse navbar-collapse">
 								<ul class="nav navbar-nav">
 									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="#">HOME</a>
+										<a class="dropdown-link" href="<?php echo site_url('category'); ?>">APARTMENT</a>
 										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Tech Mega Menu Starts -->
-										<ul class="dropdown-menu">
-											<li>
-												<div class="yamm-content">
-													<div class="row">
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<ul class="mega-links">
-																<li><a href="index.html">Home Page 1</a></li>
-																<li><a href="index-001-a.html">Home Page 2</a></li>
-																<li><a href="index-001-b.html">Home Page 3</a></li>
-																<li><a href="index-001-c.html">Home Page 4</a></li>
-																<li><a href="index-001-d.html">Home Page 5</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<ul class="mega-links">
-																<li><a href="index-001-e.html">Home Page 6</a></li>
-																<li><a href="index-001-f.html">Home Page 7</a></li>
-																<li><a href="index-001-g.html">Home Page 8</a></li>
-																<li><a href="index-001-h.html">Home Page 9</a></li>
-																<li><a href="index-002.html">Home Page 10</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<ul class="mega-links">
-																<li><a href="index-002.html">Home Page 11</a></li>
-																<li><a href="index-002-a.html">Home Page 12</a></li>
-																<li><a href="index-002-b.html">Home Page 13</a></li>
-																<li><a href="index-002-c.html">Home Page 14</a></li>
-																<li><a href="index-002-d.html">Home Page 15</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<ul class="mega-links">
-																<li><a href="index-002-e.html">Home Page 16</a></li>
-																<li><a href="index-002-f.html">Home Page 17</a></li>
-																<li><a href="index-002-g.html">Home Page 18</a></li>
-																<li><a href="index-002-h.html">Home Page 19</a></li>
-																<li><a href="index-002.html">Home Page 20</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->                                                        
-													</div>
-												</div>
-											</li>
-										</ul>
-										<!-- Tech Mega Menu Ends -->
-									</li>
-									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="#">FEATURES</a>
-										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Tech Mega Menu Starts -->
-										<ul class="dropdown-menu">
-											<li>
-												<div class="yamm-content">
-													<div class="row">
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<h3>Category Pages</h3>
-															<ul class="mega-links">
-																<li><a href="category-fashion.html">2 Columns with Right Sidebar</a></li>
-																<li><a href="category-sports.html">2 Columns with Left Sidebar</a></li>
-																<li><a href="category-movies.html">4 Columns No Sidebar</a></li>
-																<li><a href="category-tech.html">3 Columns No Sidebar</a></li>
-																<li><a href="category-photography.html">2 Columns No Sidebar</a></li>
-																<li><a href="category-lifestyle.html">1 Column with Right Sidebar</a></li>
-																<li><a href="category-food.html">1 Column with Left Sidebar</a></li>
-																<li><a href="category-movies-with-slider.html">4 Columns with Slider</a></li>
-																<li><a href="category-tech-with-slider.html">3 Columns with Slider</a></li>
-																<li><a href="category-lifestyle-with-slider.html">1 Column with Slider</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<h3>Post Formats</h3>
-															<ul class="mega-links">
-																<li><a href="standard-post.html">Standard Post</a></li>
-																<li><a href="gallery-post.html">Gallary Post</a></li>
-																<li><a href="video-post.html">Video Post</a></li>
-																<li><a href="audio-post.html">Audio Post</a></li>
-																<li><a href="post-with-right-sidebar.html">With Right Sidebar</a></li>
-																<li><a href="post-with-left-sidebar.html">With Left Sidebar</a></li>
-																<li><a href="post-no-sidebars.html">No Sidebar</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->
-														<!-- COLUMN STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<h3>Pages</h3>
-															<ul class="mega-links">
-																<li><a href="category-fashion.html">Page with Right Sidebar</a></li>
-																<li><a href="category-sports.html">Page with Left Sidebar</a></li>
-																<li><a href="category-movies.html">Page having No Sidebar</a></li>
-																<li><a href="authors.html">Author List Page</a></li>
-																<li><a href="author-page.html">Author Detail Page</a></li>
-																<li><a href="search-results.html">Search Results</a></li>
-																<li><a href="login.html">Login</a></li>
-																<li><a href="register.html">Register</a></li>
-																<li><a href="404-page.html">404 Page</a></li>
-																<li><a href="columns.html">Columns</a></li>
-																<li><a href="contact-us.html">Contact Us</a></li>
-															</ul>
-														</div>
-														<!-- COLUMN ENDS -->
-                                                        <!-- SHORTCODES STARTS -->
-														<div class="col-lg-3 col-md-3">
-															<h3>Shortcodes</h3>
-															<ul class="mega-links">
-																<li><a href="shortcodes-columns.html">Columns</a></li>
-                                                                <li><a href="shortcodes-tables.html">Tables</a></li>
-																<li><a href="shortcodes-tabs.html">Tabs</a></li>
-																<li><a href="shortcodes-buttons.html">Buttons</a></li>																
-																<li><a href="shortcodes-form.html">Form Elements</a></li>
-                                                                <li><a href="shortcodes-alerts.html">Alerts</a></li>																
-															</ul>
-														</div>
-														<!-- SHORTCODES ENDS -->														                                                 
-													</div>
-												</div>
-											</li>
-										</ul>
-										<!-- Tech Mega Menu Ends -->
-									</li>
-									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="category-fashion.html">FASHION</a>
-										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<ul class="visible-xs">
-											<li><a href="category-fashion.html">Clothing</a></li>
-											<li><a href="category-fashion.html">Shoes</a></li>
-											<li><a href="category-fashion.html">Catwalk 2014</a></li>
-										</ul>
-										<!-- Fashion Mega Menu Starts -->
+										<!-- Apartment Mega Menu Starts -->
 										<ul class="dropdown-menu hidden-xs hidden-sm">
 											<li>
 												<div class="yamm-content">
@@ -227,12 +88,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/fashion/1.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">FASHION</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Apartment/1.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">APARTMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-fashion.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -240,12 +101,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/fashion/2.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">FASHION</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Apartment/2.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">APARTMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-fashion.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -253,12 +114,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/fashion/3.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">FASHION</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Apartment/3.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">APARTMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-fashion.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -266,12 +127,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/fashion/4.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">FASHION</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Apartment/4.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">APARTMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-fashion.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -279,12 +140,12 @@
 												</div>
 											</li>
 										</ul>
-										<!-- Fashion Mega Menu Ends -->
+										<!-- Apartment Mega Menu Ends -->
 									</li>
 									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="category-sports.html">SPORTS</a>
+										<a class="dropdown-link" href="<?php echo site_url('category'); ?>">DECORATION</a>
 										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Sports Mega Menu Starts -->
+										<!-- decorations Mega Menu Starts -->
 										<ul class="dropdown-menu hidden-xs hidden-sm">
 											<li>
 												<div class="yamm-content">
@@ -293,12 +154,12 @@
 														<article class="col-lg-2 col-md-2">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/1.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/1.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DECORATION</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-sports.html">Pellentesque habitant morbi senectus et netus et</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi senectus et netus et</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -306,12 +167,12 @@
 														<article class="col-lg-2 col-md-2">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/2.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/2.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DECORATION</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-sports.html">Pellentesque habitant morbi senectus et netus et</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi senectus et netus et</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -319,12 +180,12 @@
 														<article class="col-lg-2 col-md-2">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/3.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/3.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DECORATION</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-sports.html">Pellentesque habitant morbi senectus et netus et</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi senectus et netus et</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -332,12 +193,12 @@
 														<article class="col-lg-2 col-md-2">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/4.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/4.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DECORATION</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-sports.html">Pellentesque habitant morbi senectus et netus et</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi senectus et netus et</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -345,12 +206,12 @@
 														<article class="col-lg-2 col-md-2">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/5.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/5.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DECORATION</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-sports.html">Pellentesque habitant morbi senectus et netus et</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi senectus et netus et</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -358,12 +219,12 @@
 														<article class="col-lg-2 col-md-2">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/6.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/6.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DECORATION</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-sports.html">Pellentesque habitant morbi senectus et netus et</a></div>
+																<div class="caption"><a href="<?php echo site_url('category');?>">Pellentesque habitant morbi senectus et netus et</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -371,12 +232,12 @@
 												</div>
 											</li>
 										</ul>
-										<!-- Sports Mega Menu Ends -->
+										<!-- decorations Mega Menu Ends -->
 									</li>
 									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="category-photography.html">PHOTOGRAPHY</a>
+										<a class="dropdown-link" href="<?php echo site_url('category'); ?>">DESIGN</a>
 										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Tech Mega Menu Starts -->
+										<!-- Development Mega Menu Starts -->
 										<ul class="dropdown-menu hidden-xs hidden-sm">
 											<li>
 												<div class="yamm-content">
@@ -385,12 +246,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/photography/4.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">PHOTOGRAPHY</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Design/4.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DESIGN</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-photography.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -398,12 +259,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/photography/5.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">PHOTOGRAPHY</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Design/5.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DESIGN</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-photography.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -411,12 +272,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/photography/6.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">PHOTOGRAPHY</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Design/6.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DESIGN</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-photography.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -424,12 +285,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/photography/7.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">PHOTOGRAPHY</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Design/7.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DESIGN</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-photography.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -437,12 +298,12 @@
 												</div>
 											</li>
 										</ul>
-										<!-- Tech Mega Menu Ends -->
+										<!-- Development Mega Menu Ends -->
 									</li>
 									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="category-tech.html">TECH</a>
+										<a class="dropdown-link" href="<?php echo site_url('category'); ?>">DEVELOPMENT</a>
 										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Tech Mega Menu Starts -->
+										<!-- Development Mega Menu Starts -->
 										<ul class="dropdown-menu hidden-xs hidden-sm">
 											<li>
 												<div class="yamm-content">
@@ -451,12 +312,12 @@
 														<article class="col-lg-4 col-md-4">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/tech/1.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">TECH</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Development/1.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DEVELOPMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-tech.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -464,12 +325,12 @@
 														<article class="col-lg-4 col-md-4">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/tech/2.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">TECH</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Development/2.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DEVELOPMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-tech.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -477,12 +338,12 @@
 														<article class="col-lg-4 col-md-4">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/tech/3.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">TECH</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Development/3.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">DEVELOPMENT</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-tech.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -490,12 +351,12 @@
 												</div>
 											</li>
 										</ul>
-										<!-- Tech Mega Menu Ends -->
+										<!-- Development Mega Menu Ends -->
 									</li>
 									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="category-movies.html">MOVIES</a>
+										<a class="dropdown-link" href="<?php echo site_url('category'); ?>">HOME</a>
 										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Movies Mega Menu Starts -->
+										<!-- Home Mega Menu Starts -->
 										<ul class="dropdown-menu hidden-xs hidden-sm video">
 											<li>
 												<div class="yamm-content">
@@ -504,13 +365,13 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/fashion/9.jpg" class="img-responsive" alt="" >											
-																	<h2 class="overlay-category">FASHION</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Apartment/9.jpg" class="img-responsive" alt="" >											
+																	<h2 class="overlay-category">HOME</h2>
 																	<div class="play-icon"><img src="<?php echo base_url(); ?>assets/frontend/images/images/icons/video-icon.png" width="40" height="40" alt="" ></div>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-movies.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -519,12 +380,12 @@
 															<div class="picture">
 																<div class="category-image">
 																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/food/2.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">FOOD</h2>
+																	<h2 class="overlay-category">HOME</h2>
 																	<div class="play-icon"><img src="<?php echo base_url(); ?>assets/frontend/images/images/icons/video-icon.png" width="40" height="40" alt="" ></div>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-movies.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -532,13 +393,13 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/sports/7.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">SPORTS</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/decorations/7.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">HOME</h2>
 																	<div class="play-icon"><img src="<?php echo base_url(); ?>assets/frontend/images/images/icons/video-icon.png" width="40" height="40" alt="" ></div>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-movies.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -546,13 +407,13 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/photography/2.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">PHOTOGRAPHY</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Design/2.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">HOME</h2>
 																	<div class="play-icon"><img src="<?php echo base_url(); ?>assets/frontend/images/images/icons/video-icon.png" width="40" height="40" alt="" ></div>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-movies.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -560,12 +421,12 @@
 												</div>
 											</li>
 										</ul>
-										<!-- Movies Mega Menu Ends -->
+										<!-- Home Mega Menu Ends -->
 									</li>
 									<li class="dropdown yamm-fw">
-										<a class="dropdown-link" href="category-lifestyle.html">LIFE STYLE</a>
+										<a class="dropdown-link" href="<?php echo site_url('category'); ?>">LAND</a>
 										<a class="dropdown-caret dropdown-toggle" data-hover="dropdown" ><b class="caret hidden-xs"></b></a>
-										<!-- Life Style Mega Menu Starts -->
+										<!-- Land Mega Menu Starts -->
 										<ul class="dropdown-menu hidden-xs hidden-sm">
 											<li>
 												<div class="yamm-content">
@@ -574,12 +435,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/life-style/2.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">LIFE STYLE</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Land/2.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">LAND</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-lifestyle.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -587,12 +448,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/life-style/3.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">LIFE STYLE</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Land/3.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">LAND</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-lifestyle.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -600,12 +461,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/life-style/5.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">LIFE STYLE</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Land/5.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">LAND</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-lifestyle.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -613,12 +474,12 @@
 														<article class="col-lg-3 col-md-3">
 															<div class="picture">
 																<div class="category-image">
-																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/life-style/6.jpg" class="img-responsive" alt="" >
-																	<h2 class="overlay-category">LIFE STYLE</h2>
+																	<img src="<?php echo base_url(); ?>assets/frontend/images/images/Land/6.jpg" class="img-responsive" alt="" >
+																	<h2 class="overlay-category">LAND</h2>
 																</div>
 															</div>
 															<div class="detail">
-																<div class="caption"><a href="category-lifestyle.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
+																<div class="caption"><a href="<?php echo site_url('category'); ?>">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</a></div>
 															</div>
 														</article>
 														<!-- ARTICLE ENDS -->
@@ -626,12 +487,11 @@
 												</div>
 											</li>
 										</ul>
-										<!-- Life Style Mega Menu Ends -->
+										<!-- Land Mega Menu Ends -->
 									</li>
-									<li class="visible-xs"><a href="login.html">LOGIN</a></li>
-									<li class="visible-xs"><a href="register.html">JOIN</a></li>
-									<li class="visible-xs"><a href="#">ADVERTISEMENT</a></li>
-									<li class="visible-xs"><a href="contact-us.html">CONTACT</a></li>
+									<li class="visible-xs"><a href="<?php echo site_url('login'); ?>">LOGIN</a></li>
+									<li class="visible-xs"><a href="<?php echo site_url('sitemap'); ?>">SITE MAP</a></li>
+									<li class="visible-xs"><a href="<?php echo site_url('contact'); ?>">CONTACT</a></li>
 								</ul>
 								<!-- Search Starts -->
 								<div class="nav-icon pull-right">                                    
@@ -646,4 +506,23 @@
 			</div>
 		</nav>
 		<!-- /. NAVIGATION ENDS
+			========================================================================= -->
+<!-- NEWS STARTS
+			========================================================================= -->
+		<section class="breaking-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1 col-md-1">
+						<h2 class="title">News</h2>
+					</div>
+					<div class="col-lg-11 col-md-11">
+						<div class="newsticker">
+							<div><a href="#">Senectus et netus et malesuada Pellentesque habitant morbi senectus et netus et malesuada</a></div>
+							<div><a href="#">Pellentesque habitant morbi senectus et netus et malesuada et netus et malesuada netus et</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /. NEWS ENDS
 			========================================================================= -->
