@@ -1,12 +1,7 @@
-<!-- FOOTER STARTS
-			========================================================================= -->
 		<section class="footer">
-			
-			<!-- 2ND ROW STARTS -->
 			<div class="row2">
 				<div class="container">
 					<div class="row">
-						<!-- CONTACT US STARTS -->
 						<div class="col-lg-4 col-md-6">
 							<h3>Contact Us</h3>
 							<ul class="contactus">
@@ -23,12 +18,9 @@
 								<li><a href="<?php echo site_url('privacy-policy'); ?>" style="color:white">PRIVACY POLICY</a></li>
 							</ul>
 						</div>
-						<!-- CONTACT US ENDS -->
 					</div>
 				</div>
 			</div>
-			<!-- 2ND ROW ENDS -->
-			<!-- 3RD ROW STARTS -->
 			<div class="row3">
 				<div class="container">
 					<div class="row">
@@ -36,43 +28,18 @@
 					</div>
 				</div>
 			</div>
-			<!-- 3RD ROW ENDS -->
 		</section>
-		<!-- /. FOOTER ENDS
-			========================================================================= -->
-		<!-- TO TOP STARTS
-			========================================================================= -->
-		<a href="#" class="scrollup">Scroll</a>      
-		<!-- /. TO TOP ENDS
-			========================================================================= --> 
-		<!-- STYLE SWITCHER PANEL STARTS
-			========================================================================= --> 
-		
-		<!-- /. STYLE SWITCHER PANEL ENDS
-			========================================================================= --> 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+		<a href="#navigation" class="scrollup">Scroll</a>      
 		<script src="<?php echo site_url(); ?>assets/frontend/js/jquery-1.11.1/jquery.min.js"></script> 
-		<!-- Include all compiled plugins (below), or include individual files as needed --> 
 		<script src="<?php echo site_url(); ?>assets/frontend/js/bootstrap/bootstrap.min.js"></script>
-		<!-- Hover Dropdown Menu --> 
 		<script src="<?php echo site_url(); ?>assets/frontend/js/bootstrap-hover/twitter-bootstrap-hover-dropdown.min.js"></script> 
-		<!-- Sidr JS Menu -->
 		<script src="<?php echo site_url(); ?>assets/frontend/js/sidr/jquery.sidr.min.js"></script>
-		<!-- Sticky --> 
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/sticky/jquery.sticky.js"></script>        
-		<!-- SmoothScroll --> 
-		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/SmoothScroll/SmoothScroll.html"></script>
-        <!-- Owl Carousel --> 
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/owl-carousel/owl-carousel/owl.carousel.js"></script>
-		<!-- AJAX Contact Form --> 			
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/contact/contact-form.js"></script>
-		<!-- Style Switcher --> 
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/styleswitcher/styleswitcher.js"></script>
-		<!-- Retina --> 
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/retina/retina.js"></script> 
-		<!-- FitVids --> 
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/fitvids/jquery.fitvids.js"></script>
-		<!-- Custom --> 
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/js/custom/custom.js"></script>
 		<script type="text/javascript" src="<?php echo site_url(); ?>assets/frontend/lazyload.min.js"></script>
 		<script type="text/javascript">
@@ -82,5 +49,27 @@
 			    });
 			});
 		</script>
+		<?php
+		if(!empty($countdown))
+		{
+			?>
+			<script type="text/javascript" src="<?php echo site_url();?>assets/frontend/jquery.countdown360.js"></script>
+			<script type="text/javascript">
+		 	var countdown =  $("#countdown").countdown360({
+       	 	radius      : 60,
+         	seconds     : 15,
+         	fontColor   : '#FFFFFF',
+         	autostart   : false,
+         	onComplete  : function () {
+         		document.getElementById("countdown").style.display = "none";
+         		document.getElementById("link").style.display = "block";
+         		}
+		   });
+			countdown.start();
+			console.log('countdown360 ',countdown);
+		  </script>
+			<?php
+		}
+		?>
 	</body>
 </html>

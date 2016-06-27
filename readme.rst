@@ -1,20 +1,23 @@
 PortalEstates Page :
-Home				(v)	
-Category			(v)	
-Detail				(v)	
-Detail Author	
-About
-Contact Us
-Disclaimer
-Login
-Favorite
-Search Result		
-Redirect		
-sitemap	
-Privacy Policy
+Home				(v)			home
+Category			(v)			category
+Detail				(v)			Read
+Detail Author		(v)			Read/author
+About				(v)			About-us
+Contact 			(v)			Contact
+Search Result		(v)			Search
+Disclaimer			(v)			Disclaimer
+sitemap				(v)			sitemap
+Privacy Policy		(v)			privacy-policy
+Redirect			(v)			Redirect
 
 Tambahan :
-Compress File
+Cek & Link semua halaman
+ganti foto
+Isi halaman secara lengkap (About, Privacy Policy, dll)
+Compress File CSS, JS, HTML
+Logo & icon web
+Meta Desc, Meta Keyword, Meta OG
+Deteksi Ad Block untuk Redirect yang lama
+perbaiki Meta OG: image
 Desktop notify
-Logo
-Login Facebook

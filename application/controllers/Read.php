@@ -16,4 +16,13 @@ class Read extends CI_Controller {
 		$this->load->view("detail",$data);
 		$this->load->view("footer");
 	}
+
+	public function author()
+	{
+		$data["title"] ="Read Author Article";
+		$data["sidebar"]	= $this->load->view("sidebar",$data,TRUE);
+		$this->load->view("header",$data);
+		$this->load->view("author",$data);
+		$this->load->view("footer");
+	}
 }
