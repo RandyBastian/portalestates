@@ -32,7 +32,7 @@ Jika Anda telah mendapatkan tiket promo pesawat, kami ucapkan selamat kepada And
 
 Jika ingin biaya penginapan yang lebih murah, Anda bisa menginap di rumah salah satu warga lokal yang memang dijadikan penginapan untuk wisatawan. Meskipun fasilitas yang tersedia tidak sebanyak jika Anda berada di penginapan, Anda bisa berinteraksi langsung dengan warga lokal di sana.
 
-More: <a href='https://resitarif.com/blog/3-cara-cek-resi-jne-di-resitarif-com-yang-akurat'>https://resitarif.com/blog/3-cara-cek-resi-jne-di-resitarif-com-yang-akurat</a>
+More: https://resitarif.com/blog/3-cara-cek-resi-jne-di-resitarif-com-yang-akurat
 
 Namun, jika Anda ingin menginap di penginapan yang lebih mewah, di sekitar Raja Ampat sudah berdiri belasan hotel dan sejumlah resor yang punya fasilitas mewah dan pemandangan menghadap pantai. Tentu saja, biaya yang harus Anda keluarkan akan lebih mahal. Jadi Anda ingin memilih penginapan apa? Itu kembali lagi kepada Anda.
 
@@ -55,7 +55,7 @@ Lebih mudah untuk dimainkan. Karena permainan game yang menggunakan perangkat An
 Dengan kata lain meskipun masih ada banyak kekurangan terhadap permainan judi yang dimainkan dengan Android namun mengingat permainan game ini juga telah ditawarkan di situs judi online membuat permainan game ini juga memiliki sisi yang menguntungkan.
 
 ----
-More information: <a href='https://resitarif.com'>ResiTarif</a>
+More information: https://resitarif.com
 ----
 
 
